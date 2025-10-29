@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find uuv_gazebo_worlds)/launch/ocean_waves.launch"/>
+  <include file="$(find uuv_descriptions)/launch/upload_rexrov.launch"/>
+  <node name="nlp_node" pkg="nlp_auv_control" type="nlp_node.py" output="screen"/>
+  <node name="controller_node" pkg="auv_controller" type="controller_node.py" output="screen"/>
+  <node name="visual_node" pkg="visual_feedback" type="visual_node.py" output="screen"/>
+</launch>
