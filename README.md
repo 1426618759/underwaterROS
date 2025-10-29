@@ -2,7 +2,7 @@
 
 ## 安装
 1. 安装 ROS Noetic: sudo apt install ros-noetic-desktop-full
-2. 克隆仓库: git clone https://github.com/yourusername/underwater-ros-sim.git
+2. 克隆仓库: git clone https://github.com/uuvsimulator/uuv_simulator.git
 3. cd underwater-ros-sim
 4. rosdep install --from-paths src --ignore-src -y
 5. catkin build
