@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nlp_auv_control</name>
+  <version>0.0.1</version>
+  <description>NLP control for AUV using Qwen-7B</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>python3-transformers</exec_depend>
+</package>
